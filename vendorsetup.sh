@@ -41,7 +41,7 @@ if [ -f "$(gettop)/bootable/recovery/orangefox.cpp" ]; then
 	echo -e "\x1b[96m[INFO]: Setting up OrangeFox build vars for evergo...\x1b[m"
 	if [ "$1" = "$FDEVICE" ] || [  "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 		# Version / Maintainer infos
-		export OF_MAINTAINER="weaponmasterjax"
+		export OF_MAINTAINER="weaponmasterjax&jignesh"
 		export FOX_VERSION=R12.2
 		export FOX_BUILD_TYPE="Beta"
 		export FOX_VARIANT=MIUI1404IN
@@ -49,7 +49,7 @@ if [ -f "$(gettop)/bootable/recovery/orangefox.cpp" ]; then
   		# Device info
 		export FOX_AB_DEVICE=1
 		export FOX_VIRTUAL_AB_DEVICE=1
-		export TARGET_DEVICE_ALT="evergreen, evergo, opal"
+		export TARGET_DEVICE_ALT="evergreen, evergo, opal, everpal"
 		
 		# OTA / DM-Verity / Encryption
 		export OF_DISABLE_MIUI_OTA_BY_DEFAULT=1
