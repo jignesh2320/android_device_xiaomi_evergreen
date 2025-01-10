@@ -16,9 +16,13 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_evergo.mk
+    $(LOCAL_DIR)/twrp_evergo.mk \
+    $(LOCAL_DIR)/pb_evergo.mk
 
 COMMON_LUNCH_CHOICES := \
     twrp_evergo-user \
     twrp_evergo-userdebug \
-    twrp_evergo-eng
+    twrp_evergo-eng \
+    pb_evergo-user \
+    pb_evergo-userdebug \
+    pb_evergo-eng
