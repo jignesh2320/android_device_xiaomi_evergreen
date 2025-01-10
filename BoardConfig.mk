@@ -42,7 +42,7 @@ TARGET_NO_BOOTLOADER := true
 TARGET_BOARD_PLATFORM := mt6833
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := evergreen,evergo,opal
+TARGET_OTA_ASSERT_DEVICE := evergreen,evergo,opal,everpal
 
 # Kernel
 BOARD_KERNEL_CMDLINE := \
